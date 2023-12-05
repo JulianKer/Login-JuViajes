@@ -5,20 +5,29 @@ body{
     font-family: sans-serif;
 }
 
+.imagen-de-fondo{
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+
 .main{
-    border: red solid 2px;
-    height: 99.5vh;
+    height: 100vh;
+    
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .contenedor-principal{
-    border: black solid 2px;
+    box-shadow: 0 0 20px 5px black;
+    background-color: white;
     border-radius: 1.5em;
     min-height: 50%;
     min-width: 22.5em;
     padding: 1em;
+    position: relative;
 
     display: flex;
     flex-direction: column;
@@ -83,6 +92,16 @@ body{
     outline: #ED6200 solid 2px;
 }
 
+.ojo{
+    position: absolute;
+    right: 3.3em;
+    top: .65em;
+    padding-left: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+
 .p-olvidar-password{
     font-size: 0.8em;
     text-align: center;
@@ -100,6 +119,7 @@ body{
     padding: 0.5em;
     text-decoration: none;
     color: white;
+    border: 0;
 
     display: flex;
     justify-content: center;
@@ -148,7 +168,25 @@ body{
 
 
 
+/*--------------- mensajes de error------------*/
 
+.error-usuario,
+.error-contraseña{
+    color: red;
+    font-size: 0.8em;
+    position: absolute;
+    left: 5.5em;
+    cursor: text;
+}
 
+.error-usuario{
+    bottom: 18.7em;
+}
+
+.error-contraseña{
+    bottom: 13.6em;
+}
+
+/*---------------------------------------------*/
 
 
