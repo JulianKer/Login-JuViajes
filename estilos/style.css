@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main{
+    border: red solid 2px;
+    height: 99.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-principal{
+    border: black solid 2px;
+    border-radius: 1.5em;
+    min-height: 50%;
+    min-width: 22.5em;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+}
+
+.contenedor-del-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    max-width: 5em;
+    max-height: 5em;
+}
+
+.label-rememberme{
+    display: flex;
+}
+
+
+.label-usuario,
+.label-contraseña{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+}
+.titulo-usuario,
+.titulo-password{
+    margin: 0;
+    position: absolute;
+    left: 4em;
+    top: -0.5em;
+    background-color: white;
+    padding: 0 0.3em;
+    cursor: pointer;
+}
+#usuario,
+#password{
+    font-size: 1em;
+    width: 70%;
+    padding: 0.6em;
+    padding-top: 0.8em;
+
+    border-radius: 0.3em;
+    border: 0;
+    outline: #B9B9B9 solid 2px; /*naranja del logo: #ED6200*/
+}
+
+#usuario:hover,
+#password:hover,
+#usuario:focus,
+#password:focus{
+    outline: #ED6200 solid 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -3,27 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
     <title>Iniciar sesión</title>
 </head>
 <body>
     <main class="main">
         <section class="contenedor-principal">
-            <h1 class="titulo">Inicia sesión</h1>
-            <label>
-                <p class="titulo-usuario">Uusario</p>
-                <input type="text" name="usuario" id="usuario" placeholder="Ingrese su usuario">
+            <div class="contenedor-del-logo">
+                <img src="img/logo.png" class="logo">
+            </div>
+            <h1 class="titulo">Iniciar sesión</h1>
+            <label class="label-usuario">
+                <p class="titulo-usuario">Usuario</p>
+                <input type="text" name="usuario" id="usuario">
             </label>
 
-            <label>
+            <label class="label-contraseña">
                 <p class="titulo-password">Contraseña</p>
                 <input type="password" name="password" id="password">
             </label>
             <a href="#">Olvidé mi contraseña</a>
             <a href="#">Iniciar sesión</a>
             <p>No tienes una cuenta? <a href="#">Regístrate</a></p>
-            <label>
+            <label class="label-rememberme">
                 <input type="checkbox" id="checkbox">
-                <p class="recuerdame">Recuérdame</p>
+                <p class="recuerdame">Recordarme</p>
             </label>
         </section>
     </main>
