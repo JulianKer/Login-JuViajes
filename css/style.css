@@ -11,6 +11,10 @@ body{
     height: 100%;
     width: 100%;
 }
+.volver{
+    position: absolute;
+    margin: 1em;
+}
 
 .main{
     height: 100vh;
@@ -48,11 +52,6 @@ body{
     max-width: 5.5em;
     max-height: 5.5em;
 }
-
-.label-rememberme{
-    display: flex;
-}
-
 
 .label-usuario,
 .label-contraseña{
@@ -113,13 +112,16 @@ body{
     margin-top: 1em;
     
     background-color: #ED6200;
+    outline: #ED6200 solid 2px;
+
     border-radius: 0.3em;
-    width: 70%;
+    width: 76%;
     font-size: 1.2em;
     padding: 0.5em;
     text-decoration: none;
     color: white;
     border: 0;
+    cursor: pointer;
 
     display: flex;
     justify-content: center;
@@ -133,6 +135,7 @@ body{
 .boton-iniciar-sesion > span{
     width: 100%;
     text-align: center;
+    cursor: pointer;
 }
 .boton-iniciar-sesion > span:hover{
     transition: all .2s;
@@ -145,28 +148,12 @@ body{
     font-size: 0.8em;
 }
 
-.label-rememberme{
-    align-self: center;
-}
-.label-rememberme > p{
-    margin: 0 5px;
-}
-.label-rememberme,
-.label-rememberme > input{
-    cursor: pointer;
-}
-
 .links{
     color: rgb(48, 48, 255);
 }
 .links:hover{
     color: #ED6200;
 }
-
-
-
-
-
 
 /*--------------- mensajes de error------------*/
 
@@ -180,13 +167,12 @@ body{
 }
 
 .error-usuario{
-    bottom: 18.7em;
+    bottom: 17.2em;
 }
 
 .error-contraseña{
-    bottom: 13.6em;
+    bottom: 12.1em;
 }
 
 /*---------------------------------------------*/
-
 

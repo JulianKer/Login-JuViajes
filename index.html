@@ -8,9 +8,10 @@
     <title>Iniciar sesión - JuViajes</title>
 </head>
 <body>
+    <a href="pages/prueba.html" class="volver"><img src="icons/flecha-volver.svg" alt="flecha-volver" title="Volver"></a>
     <main class="main">
         <img src="img/imagen personas.png" class="imagen-de-fondo">
-        <form class="contenedor-principal" id="formulario" action="prueba.html">
+        <form class="contenedor-principal" id="formulario" action="pages/prueba.html">
             <div class="contenedor-del-logo">
                 <img src="img/logo.png" class="logo">
             </div>
@@ -23,15 +24,11 @@
             <label class="label-contraseña">
                 <p class="titulo-password">Contraseña</p>
                 <input type="password" name="password" id="password">
-                <img src="icons/ojo cerrado.svg" alt="Ojo" title="Mostrar contraseña" class="ojo">
+                <img src="icons/ojoCerrado.svg" alt="Ojo" title="Mostrar contraseña" class="ojo" id="ojo">
             </label>
             <p class="p-olvidar-password">¿Has olvidado tu contraseña? <a href="#" class="links">Ayuda</a></p>
             <button class="boton-iniciar-sesion" id="boton-iniciar-sesion" type="submit"><span>Iniciar sesión</span></button>
-            <p class="p-de-registrarse">No tienes una cuenta? <a href="#" class="links">Regístrate</a></p>
-            <label class="label-rememberme">
-                <input type="checkbox" id="checkbox">
-                <p class="recuerdame">Recordarme</p>
-            </label>
+            <p class="p-de-registrarse">¿No tienes una cuenta? <a href="#" class="links">Regístrate</a></p>
             <label class="error-usuario" id="error-usuario" for="usuario"></label>
             <label class="error-contraseña" id="error-contraseña" for="password"></label>
         </form>
