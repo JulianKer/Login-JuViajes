@@ -33,11 +33,11 @@ formulario.addEventListener("submit", (e)=>{
     }
 });
 
-inputUsuario.addEventListener("click", ()=>{
+inputUsuario.addEventListener("keydown", ()=>{
     errorUsuario.textContent = "";
 });
 
-inputContraseña.addEventListener("click", ()=>{
+inputContraseña.addEventListener("keydown", ()=>{
     errorContraseña.textContent = "";
 });
 
