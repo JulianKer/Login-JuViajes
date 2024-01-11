@@ -5,6 +5,7 @@
 ---
 
 <h4>Preview:</h4>
-![](https://github.com/JulianKer/Login/blob/master/img/modelo%20a%20seguir%20del%20login.png)
+
+![Preview](https://github.com/JulianKer/Login/blob/master/img/modelo%20a%20seguir%20del%20login.png)
 
 ---
